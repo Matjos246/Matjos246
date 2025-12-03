@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+
+}
+
+body{
+    padding: 50px;
+    background-color: rgb(134, 134, 45);
+  
+}
+.container{
+    justify-content: center;
+     outline: 5px solid #333;
+      /* border: 1px solid #333; */
+      /* outline and border works  perfectly the same way */
+    padding: 10px;
+   display: grid;
+   gap: 1rem;
+   /* grid-template-columns: 
+   repeat(auto-fit,minmax(10rem, 3fr)); */
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+
+   /* ....................overflow................... */
+   /* overflow-x: hidden; */
+}
+
+.lorem, .dive, .div,
+.hidid, .gigig {
+    padding: 10px;
+      display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+}
+ p{
+    outline: 3px thin brown;
+    border: 3px solid brown;
+    color: aliceblue;
+    display: wrap;
+    flex-wrap: wrap;
+}
+.dive > *  {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
